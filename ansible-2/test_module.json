@@ -1,0 +1,6 @@
+{
+    "ANSIBLE_MODULE_ARGS": {
+        "path": "/tmp/test_file.txt",
+        "content": "This is test content"
+    }
+}
