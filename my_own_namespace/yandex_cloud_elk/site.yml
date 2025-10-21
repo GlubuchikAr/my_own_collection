@@ -1,0 +1,8 @@
+---
+- name: Use custom file creation role
+  hosts: localhost
+  roles:
+    - role: create_file
+      vars:
+        file_path: "/tmp/test_file_2.txt"
+        file_content: "Тест!"
